@@ -1,0 +1,27 @@
+.DS_Store
+node_modules
+npm-debug.log
+dist
+config.yml
+*.sass-cache*
+*.log
+.idea/
+*.swp
+packaged/
+wpcs/
+vendor/
+
+# ignore everything in the "wp-content" directory, except:
+# "mu-plugins" directory
+# "themes" directory
+!/public
+/public/*
+!/public/wp-content
+/public/wp-content/*
+!/public/wp-content/themes
+public/wp-content/themes/theme/dist/*
+!/public/wp-content/mu-plugins
+
+# ignore default themes & index.php
+public/wp-content/themes/twenty*/
+public/wp-content/themes/index.php
